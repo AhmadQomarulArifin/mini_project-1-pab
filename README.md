@@ -11,7 +11,7 @@ Aplikasi dibuat menggunakan konsep StatefulWidget dan setState() sebagai impleme
 - Create (Tambah Data)
 Menambahkan data penitipan hewan melalui form input.
 - Read (Tampilkan Data)
-Menampilkan daftar hewan yang dititip dalam bentuk list dan juga detail.
+Menampilkan data penitipan dalam bentuk list pada halaman Home, serta menampilkan detail data pada halaman Detail ketika item diklik.
 - Delete (Hapus Data)
 Menghapus data penitipan hewan dari daftar.
 
@@ -85,7 +85,7 @@ lib
    
    . edit_pet_page.dart
 
-   . detail_pat_page.dart
+   . detail_pet_page.dart
 
 # Tampilan
 ## Tampilan Homepage sebelum ada data
