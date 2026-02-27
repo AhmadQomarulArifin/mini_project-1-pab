@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/pet.dart';
 import 'add_pet_page.dart';
 import 'edit_pet_page.dart';
+import 'detail_pet_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -45,7 +46,7 @@ class _HomePageState extends State<HomePage> {
         padding: const EdgeInsets.all(14),
         child: Column(
           children: [
-            // SEARCH BAR
+            
             TextField(
               decoration: InputDecoration(
                 labelText: 'Cari (nama hewan / pemilik)',
@@ -128,11 +129,23 @@ class _HomePageState extends State<HomePage> {
                         return InkWell(
                           borderRadius: BorderRadius.circular(18),
                           onTap: () async {
-                            final updated = await Navigator.push<Pet>(
+                            final result = await Navigator.push(
                               context,
-                              MaterialPageRoute(builder: (_) => EditPetPage(pet: pet)),
+                              MaterialPageRoute(
+                                builder: (_) => DetailPetPage(
+                                  pet: pet,
+                                  index: realIndex,
+                                ),
+                              ),
                             );
-                            if (updated != null) updatePet(realIndex, updated);
+
+                            if (result != null && result is Map) {
+                              if (result['action'] == 'update') {
+                                updatePet(realIndex, result['data']);
+                              } else if (result['action'] == 'delete') {
+                                deletePet(realIndex);
+                              }
+                            }
                           },
                           child: Card(
                             elevation: 0,
