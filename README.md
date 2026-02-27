@@ -89,16 +89,17 @@ lib
 
 # Tampilan
 ## Tampilan Homepage sebelum ada data
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5e001e72-8c08-4a65-bb5c-75249e487d39" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/60069595-b739-49b8-9208-ba3d9ea51f43" />
 
 ## Tampilan halaman add
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3151b35d-15d6-4b04-b180-fe6c331e4cac" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b914a8d7-e98a-4a3e-8d57-17051c5d875a" />
 
 ## Tampilan homepage setelah ada data
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6a4be87b-5368-408c-b9df-a0f0e4f038c6" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/c5a6170b-7e52-4887-b69e-a74c213af5ae" />
 
 ## Tampilan halaman detail
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3564d59c-77ff-4cbd-8726-db215010278e" />
 
 ## tampilan halaman edit
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e0d7ba4c-530f-4edf-bd63-b4db996c13d5" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9669afc5-d764-4960-aecd-8fa543d5723e" />
+
